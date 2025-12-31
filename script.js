@@ -1,7 +1,7 @@
 const PASSWORD = "I LOVE YOU";
 
 const memories = [
-  { img: "photos/photo1.png", text: "Puja, this moment reminds me how safe I feel with you ❤️" },
+  { img: "photos/photo1.png", text: "Saana, this moment reminds me how safe I feel with you ❤️" },
   { img: "photos/photo2.png", text: "One of those simple happy days I never want to forget 😌" },
   { img: "photos/photo3.png", text: "Standing together — always 💕" }
 ];
@@ -50,3 +50,4 @@ setInterval(() => {
   document.body.appendChild(heart);
   setTimeout(() => heart.remove(), 6000);
 }, 400);
+
