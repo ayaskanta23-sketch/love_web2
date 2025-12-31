@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For Puja ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="lock">
+  <h2>Only for Puja ❤️</h2>
+  <input type="password" id="password" placeholder="Enter the magic word">
+  <button onclick="unlock()">Open 💕</button>
+  <p id="error"></p>
+</div>
+
+<div id="app" class="hidden">
+
+  <div id="stage1" class="card fade-in">
+    <p class="title">Hey Puja ❤️</p>
+    <p>I made this just for you.</p>
+    <p>Some feelings deserve effort 💕</p>
+    <button onclick="goStage2()">Open Something More ❤️</button>
+  </div>
+
+  <div id="stage2" class="hidden fade-in">
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">💌</div>
+        <div class="flip-back">
+          <img id="photo">
+          <p id="memory"></p>
+          <button onclick="nextMemory()">Next 💕</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="stage3" class="hidden fade-in">
+    <h1>Happy New Year, Puja ✨</h1>
+    <p>
+      Thank you for being my year.<br>
+      My memories.<br>
+      My person. ❤️
+    </p>
+    <p>Let’s make the next one even more beautiful — together 💕</p>
+  </div>
+
+</div>
+
+<div id="hearts"></div>
+
+<audio id="music" src="music.mp3" loop></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
+
